@@ -46,17 +46,19 @@ Engineering Intelligence Hub aims to solve this problem through intelligent retr
 
 ## Architecture
 
+```text
 User Query
-↓
+    ↓
 Retriever
-↓
+    ↓
 Qdrant Vector Database
-↓
+    ↓
 Context Retrieval
-↓
+    ↓
 LLM
-↓
+    ↓
 Grounded Response
+```
 
 ---
 
