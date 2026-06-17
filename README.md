@@ -135,9 +135,22 @@ engineering-intelligence-hub/
 
 ## Current Status
 
-Project initialization and architecture design completed.
+### Completed
 
-Currently building the document ingestion domain.
+- Project initialization
+- Hexagonal architecture setup
+- Domain boundaries defined
+- Repository structure established
+
+### In Progress
+
+- Document ingestion domain
+
+### Next Milestone
+
+- Document upload workflow
+- File storage abstraction
+- Metadata persistence
 
 ---
 
