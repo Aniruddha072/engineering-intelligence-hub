@@ -19,3 +19,4 @@ class Document:
     status: DocumentStatus
     created_at: datetime
     updated_at: datetime
+    
