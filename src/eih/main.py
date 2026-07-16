@@ -2,7 +2,6 @@ from fastapi import FastAPI
 
 from eih.config import settings
 
-
 app = FastAPI(
     title=settings.app_name,
     debug=settings.debug,

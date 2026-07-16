@@ -1,0 +1,9 @@
+line-length = 100
+target-version = "py311"
+
+[lint]
+extend-select = [
+    "I",   # import
+    "F",   # formatting
+    "E",   # errors
+]
