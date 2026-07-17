@@ -36,26 +36,52 @@ The goal is not just to build another chatbot, but to understand how enterprise-
 
 ## Current Status
 
-### Phase 0 — Bootstrap & Foundation
+### Phase 0 — Foundation & Infrastructure ✅
+
+Phase 0 established the engineering foundation of the platform and introduced the tooling, infrastructure, and development workflow required for future modules.
 
 #### Completed
 
-- [x] Repository setup
-- [x] Project structure
+##### Project Foundation
+
+- [x] Repository structure
+- [x] Modular project layout
 - [x] Configuration management
-- [x] Development tooling setup
+- [x] Development environment setup
 
-#### In Progress
+##### Application Layer
 
-- [ ] FastAPI application setup
-- [ ] Health check endpoint
-- [ ] Docker environment
-- [ ] PostgreSQL setup
-- [ ] pgvector integration
+- [x] FastAPI application bootstrap
+- [x] Health check endpoint
+- [x] API documentation via Swagger/OpenAPI
 
-#### Planned
+##### Database Infrastructure
 
-- [ ] Authentication Module
+- [x] PostgreSQL setup using Docker
+- [x] pgvector extension enabled
+- [x] Local database environment verified
+
+##### Engineering Tooling
+
+- [x] Ruff linting
+- [x] MyPy static type checking
+- [x] Pytest testing framework
+- [x] GitHub Actions CI pipeline
+- [x] uv package management
+
+#### Upcoming
+
+##### Phase 1 — Authentication & Users
+
+- [ ] SQLAlchemy Async database layer
+- [ ] Alembic migration setup
+- [ ] User domain model
+- [ ] User repository
+- [ ] JWT authentication
+- [ ] Authorization framework
+
+##### Future Phases
+
 - [ ] Document Ingestion Module
 - [ ] Retrieval Module
 - [ ] Generation Module
@@ -63,6 +89,19 @@ The goal is not just to build another chatbot, but to understand how enterprise-
 - [ ] Evaluation Framework
 - [ ] Production Deployment
 
+---
+
+## Roadmap Progress
+
+| Phase | Status |
+|---------|---------|
+| Phase 0 — Foundation & Infrastructure | ✅ Complete |
+| Phase 1 — Authentication & Users | ⏳ Next |
+| Phase 2 — Document Ingestion | ⬜ Planned |
+| Phase 3 — Embeddings & Vector Storage | ⬜ Planned |
+| Phase 4 — Retrieval Pipeline | ⬜ Planned |
+| Phase 5 — Generation Pipeline | ⬜ Planned |
+| Phase 6 — Observability & Production Readiness | ⬜ Planned |
 ---
 
 ## High-Level Architecture
@@ -243,7 +282,7 @@ The complete implementation roadmap is maintained separately and tracks the evol
 
 Future milestones include:
 
-- Core Platform Setup
+- Foundation & Infrastructure
 - Authentication & Security
 - Knowledge Ingestion
 - Hybrid Retrieval
