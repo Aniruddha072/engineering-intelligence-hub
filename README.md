@@ -1,5 +1,7 @@
 # Engineering Intelligence Hub
 
+![CI](https://github.com/Aniruddha072/engineering-intelligence-hub/actions/workflows/ci.yml/badge.svg)
+
 > A production-grade Hybrid RAG platform for engineering knowledge.
 
 Engineering Intelligence Hub (EIH) is an end-to-end Retrieval-Augmented Generation (RAG) platform designed to explore how modern AI-powered knowledge systems are engineered beyond simple prototypes.
